@@ -24,6 +24,8 @@ namespace ScreenCapture
             Graphics g = Graphics.FromImage(bm);
             g.CopyFromScreen(0, 0, 0, 0, rect.Size);
             this.BackgroundImage = bm;
+
+            //ăndkjandkjawnk
         }
     }
 }
